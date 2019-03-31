@@ -13,6 +13,7 @@
 		7B540B35222B33F3008EEF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B540B33222B33F3008EEF26 /* LaunchScreen.storyboard */; };
 		7B540B40222B33F3008EEF26 /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B540B3F222B33F3008EEF26 /* ColorsTests.swift */; };
 		7B540B4B222B36A0008EEF26 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B540B4A222B36A0008EEF26 /* ColorsViewController.swift */; };
+		7BB356AA2251567B00CF71E1 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB356A92251567B00CF71E1 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7B540B3F222B33F3008EEF26 /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		7B540B41222B33F3008EEF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B540B4A222B36A0008EEF26 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		7BB356A92251567B00CF71E1 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				7B540B31222B33F3008EEF26 /* Assets.xcassets */,
 				7B540B33222B33F3008EEF26 /* LaunchScreen.storyboard */,
 				7B540B36222B33F3008EEF26 /* Info.plist */,
+				7BB356A92251567B00CF71E1 /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -146,9 +149,11 @@
 				TargetAttributes = {
 					7B540B26222B33F1008EEF26 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					7B540B3A222B33F3008EEF26 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 7B540B26222B33F1008EEF26;
 					};
 				};
@@ -197,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB356AA2251567B00CF71E1 /* ColorDetailViewController.swift in Sources */,
 				7B540B4B222B36A0008EEF26 /* ColorsViewController.swift in Sources */,
 				7B540B2B222B33F1008EEF26 /* AppDelegate.swift in Sources */,
 			);
@@ -369,7 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,7 +393,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.Colors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -407,7 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
 			};
@@ -428,7 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.missouri.ColorsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
 			};
